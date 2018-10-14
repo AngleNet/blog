@@ -79,10 +79,8 @@ theme_config:
     Blog: /
     Archive: /archives/
     GitHub: https://github.com/anglenet
-    Stackoverflow: /
-    Rss: /atom.xml
   favicon: /favicon.ico
-  logo: https://avatars1.githubusercontent.com/u/3142935?v=3&s=466 or file
+  logo: https://avatars0.githubusercontent.com/u/14330209?s=460&v=4
   # Comment
   # e.g disqus: seansun
   disqus:
@@ -101,7 +99,8 @@ theme_config:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/anglenet/blog
 
 archive_generator:
   per_page: 0
